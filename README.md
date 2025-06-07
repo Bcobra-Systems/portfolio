@@ -1,5 +1,8 @@
 # 💼 Portfolio – B. Cobra Systems
 
+> ⚠️ **Note:** This repository is currently under development and will be live soon.  
+> Stay tuned for real-world examples of our automation work — we're building something great.
+
 A look inside our custom automation arsenal. This repo highlights some of our most effective low-code + AI solutions using platforms like:
 
 - [n8n](https://n8n.io/) – Open-source workflow automation
@@ -20,7 +23,6 @@ A look inside our custom automation arsenal. This repo highlights some of our mo
 - Applies routing logic using `IF`/`Switch` nodes
 - Sends Slack alerts and creates CRM entries
 
-![n8n Screenshot](media/n8n-lead-flow.png)
 
 ---
 
@@ -32,7 +34,6 @@ A look inside our custom automation arsenal. This repo highlights some of our mo
 - Power Automate parses and routes requests
 - Escalation logic built in for high-priority tags
 
-![PowerApp UI](media/powerapp-form.png)
 
 ---
 
@@ -44,7 +45,6 @@ A look inside our custom automation arsenal. This repo highlights some of our mo
 - Label and tag in Helpdesk
 - Generate auto-replies based on detected tone
 
-![Flow diagram](media/ai-email-pipeline.png)
 
 ---
 
