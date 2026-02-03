@@ -345,7 +345,7 @@ Have a manual process that's eating your team's time? Let's fix it.
 
 📧 **Email:** [info@bcobra.systems](mailto:info@bcobra.systems)  
 🌐 **Website:** [bcobra.systems](https://bcobra.systems)  
-💼 **Upwork:** [View Profile & Reviews](https://www.upwork.com/freelancers/bcobra)  
+💼 **Upwork:** [View Profile & Reviews](https://www.upwork.com/freelancers/~013222e590705ad4a8?mp_source=share)  
 📝 **Blog:** [blog.bcobra.net](https://blog.bcobra.net) — See our automation content pipeline in action
 
 ---
