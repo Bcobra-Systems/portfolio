@@ -29,6 +29,27 @@ We work across three core platforms, choosing the right tool for each client's e
 
 ## 🏢 Power Platform Solutions
 
+### ⏱️ Timesheet Reconciliation Engine
+
+**Client:** Summit | **Platform:** Power Apps Code App (React 19) + Power Automate + Dataverse + UKG Ready API
+
+**The Problem:**
+A staffing company with ~400 associates across multiple government contracts manually reconciled timesheets between UKG Ready (payroll) and client-submitted spreadsheets every pay period. Two timekeepers spent 4-6 hours per week in an Excel VBA workbook catching discrepancies - mismatched hours, missing entries, name variations across systems. Errors meant incorrect pay, compliance risk, and frustrated associates.
+
+**What We Built:**
+A full-stack reconciliation platform running as a Power Apps Code App (React 19 + TypeScript). The system pulls time entries from UKG Ready via server-side OAuth2, imports client spreadsheets (XLSX/CSV) through an AI-assisted template mapping engine that auto-detects file structures and learns column mappings over time, then runs a multi-tier matching algorithm that resolves associates by HR ID, exact name, and fuzzy matching with persistent name disparity mappings. Results surface in color-coded comparison grids (daily detail or weekly summary) where timekeepers can drill into per-day discrepancies, manage name aliases inline, and send SMS/email notifications to associates directly from the app.
+
+**The Impact:**
+- Reconciliation time dropped from 4-6 hours to under 15 minutes per pay period
+- Multi-tier matching resolves 95%+ of entries automatically on first run
+- Template learning system eliminates repeated setup when onboarding new clients - corrections are remembered
+- Name disparity mappings permanently fix recurring mismatches across pay periods
+- Built-in notification system closes the loop with associates without leaving the app
+
+**Tech Stack:** `React 19` `TypeScript` `Vite` `Power Apps Code App SDK` `Dataverse` `Power Automate` `UKG Ready API` `TanStack Query` `shadcn/ui` `Tailwind CSS` `SheetJS` `Vitest`
+
+---
+
 ### 🌐 Supply Chain & Receiving Ecosystem
 
 **Client:** Davilex Group | **Platform:** Power Apps + Power Automate + SharePoint + Xero Integration
