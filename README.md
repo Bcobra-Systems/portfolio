@@ -50,6 +50,27 @@ A full-stack reconciliation platform running as a Power Apps Code App (React 19 
 
 ---
 
+### 🔑 BambooHR-to-Entra ID Employee Provisioning
+
+**Client:** SWK Technologies | **Platform:** Power Automate + Microsoft Graph API + BambooHR API + Azure Key Vault
+
+**The Problem:**
+A 230+ employee roofing company was manually creating Microsoft Entra ID (Azure AD) accounts every time HR added a new hire in BambooHR. IT staff spent 30+ minutes per new hire setting up the account, assigning the right security groups, configuring licenses, and provisioning QR code sign-in for frontline field workers. Group memberships drifted as employees changed roles, and disabled employees sometimes kept resource access for days after termination.
+
+**What We Built:**
+A 5-flow Power Automate architecture triggered by BambooHR webhooks covering the full employee lifecycle. The create flow provisions an Entra ID user via Microsoft Graph API, assigns the correct subset of 14 security groups based on BambooHR attributes (department, job title, division, custom fields), and provisions QR code + PIN authentication for frontline workers. QR code images are captured from Graph API's one-shot creation response and uploaded directly to BambooHR Employee Files for HR self-service. The update flow syncs attribute changes and recalculates all group memberships. The disable flow locks the account and strips all group memberships. Two reusable child flows handle group sync and QR onboarding across parent flows. A daily scheduled flow processes 15-day deferred group removals. Dual UPN formats by division (office workers get name-based emails with collision handling, field workers get employee ID-based emails). All credentials in Azure Key Vault, every action logged to a SharePoint audit list.
+
+**The Impact:**
+- New hire provisioning dropped from 30+ minutes of manual IT work to under 2 minutes, fully automated
+- 14 Entra security groups managed automatically based on live BambooHR field values
+- QR code authentication provisioned for frontline workers without IT intervention
+- Full lifecycle coverage (create, update, disable) eliminates access drift and stale group memberships
+- Complete audit trail in SharePoint for compliance and troubleshooting
+
+**Tech Stack:** `Power Automate` `Microsoft Graph API` `BambooHR API` `Azure Key Vault` `SharePoint Online` `Entra ID` `QR Code Authentication` `OAuth 2.0 Client Credentials` `Dataverse Environment Variables`
+
+---
+
 ### 🌐 Supply Chain & Receiving Ecosystem
 
 **Client:** Davilex Group | **Platform:** Power Apps + Power Automate + SharePoint + Xero Integration
