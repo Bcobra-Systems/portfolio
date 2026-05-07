@@ -133,6 +133,28 @@ An integrated two-app system: an inventory pull request app where event teams sp
 
 ---
 
+### 📋 Vendor Compliance Chargeback System
+
+**Client:** Legends Global Merchandise | **Platform:** Power Apps + Power Automate + SharePoint + Power BI
+
+**The Problem:**
+Legends' merchandise teams receive shipments from hundreds of vendors and routinely catch packing violations - wrong SKU, missing items, incorrect quantities. The process to track those violations and recover costs through vendor chargebacks lived in scattered spreadsheets and email threads. There was no consistent photo evidence trail, no structured approval workflow, and finance had no centralized view of outstanding chargebacks across teams.
+
+**What We Built:**
+A multi-stage chargeback management system spanning a tablet-friendly Power App, five purpose-built Power Automate flows, and a Power BI analytics layer. Field staff submit reports with violation details and photo evidence captured directly from the device camera or laptop webcam. Each report routes through a clean lifecycle - Pending Approval, then Approved or Waived by the team's approvers, then Processed by Finance - with automated email notifications at every transition that include deep-links straight back to the specific report in the canvas app. A scheduled escalation flow re-pings approvers when reports go stale. The Power BI report layer gives leadership a real-time view of pipeline health, decision lag versus targets, vendor repeat-offender patterns, and per-team performance, with drillthrough to individual reports.
+
+**The Impact:**
+- Replaced spreadsheet and email tracking with a single auditable system of record across all merchandise teams
+- Photo evidence captured at the point of inspection eliminated vendor-dispute back-and-forth
+- Per-team distribution lists ensure the right approvers see each chargeback within minutes of submission
+- Power BI dashboard surfaces stuck reports and slow approvers before chargebacks age out
+- Role-based UI (Admin, Team Approver, Finance, Report Manager) keeps each user focused on their part of the workflow with no training required
+- Deployed on the client's existing M365 and Power Platform licensing - no new per-user costs
+
+**Tech Stack:** `Power Apps` `Power Automate` `SharePoint Online` `Power BI` `PBIR` `IBCS Variance Charts` `Photo Capture` `Deep-Link Email` `Role-Based Security` `Multi-Stage Approval`
+
+---
+
 ### ⚠️ Safety Compliance Management App
 
 **Client:** Repeat Upwork Client (2 contracts) | **Platform:** Power Apps + Power Automate
