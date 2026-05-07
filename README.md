@@ -71,6 +71,28 @@ A 5-flow Power Automate architecture triggered by BambooHR webhooks covering the
 
 ---
 
+### 📦 Warehouse Material Receiving Workflow
+
+**Client:** Collins Electrical | **Platform:** Power Apps + Power Automate + SharePoint + SQL Server (On-Prem Gateway)
+
+**The Problem:**
+A commercial electrical contractor receives roughly 30 material deliveries per day at their central warehouse, but project managers and field foremen had no visibility into what arrived or when. Forklift operators logged deliveries on paper, photos lived on personal phones, and PMs had to call the warehouse to confirm critical materials had landed before dispatching crews.
+
+**What We Built:**
+A mobile-first Power App for forklift operators to log deliveries in seconds: select the job, capture photos, add notes, submit. Active jobs sync nightly from Spectrum (the client's ERP) through an on-prem SQL data gateway, so the job list stays current with zero manual upkeep. On submission, automated flows create the receiving record, attach photos to a SharePoint document library, and email the PM and assigned foreman with clickable photo links. A separate Tracking screen gives Purchasing and Ops a date-filtered, searchable view of every delivery, plus a notes-update flow that re-notifies stakeholders whenever a delivery is amended after the fact.
+
+**The Impact:**
+- PMs and foremen now receive same-minute notifications instead of next-day phone calls
+- Photo evidence captured at the moment of receipt resolves "did it arrive damaged?" disputes
+- Eliminated paper logs and ad-hoc text-message photos
+- Purchasing gained a single searchable history of every delivery across the warehouse
+- Role-based security routes Receivers and Purchasing through their own workflows from the same app
+- Built entirely on M365 Business Premium licenses the client already owned — zero per-user Premium connector cost
+
+**Tech Stack:** `Power Apps` `Power Automate` `SharePoint Online` `SQL Server` `On-Prem Data Gateway` `Spectrum ERP Integration` `Photo Capture` `Mobile-First` `Role-Based Security`
+
+---
+
 ### 🌐 Supply Chain & Receiving Ecosystem
 
 **Client:** Davilex Group | **Platform:** Power Apps + Power Automate + SharePoint + Xero Integration
