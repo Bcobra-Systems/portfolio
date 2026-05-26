@@ -1,29 +1,70 @@
-# 💼 Portfolio — B. Cobra Systems, LLC
+# 💼 B. Cobra Systems — Power Platform & SharePoint Automation
 
-**Custom automation solutions that eliminate busywork and scale with your business.**
+**Power Platform and SharePoint automation for teams buried in spreadsheets, approvals, and manual reporting.**
 
-## Who We Are
+B. Cobra Systems is Bryan's solo Microsoft automation consultancy. I design and build Power Platform, SharePoint, and workflow systems for teams that have outgrown fragile Excel files, email approvals, and manual reporting. The work is senior-led from discovery through delivery, with documentation and training so your team owns the system after launch.
 
-B. Cobra Systems is a boutique consultancy specializing in business process automation, custom app development, and AI-powered workflows. We help companies replace manual processes with systems that run themselves.
-
-| 🏆 100% Job Success on Upwork | ⭐ All 5-star reviews across 6+ contracts |
+| 🎓 Microsoft Certified Power Platform Consultant | 💻 26 years enterprise software development |
 |---|---|
-| 🎓 Microsoft Certified Power Platform Consultant | 🏛️ 21 years supporting CDC globally |
-| 💻 26 years enterprise software development | 🌍 Built systems used by 2,500+ users in 50+ countries |
+| 🏛️ 21 years supporting CDC globally | 🌍 Built systems used by 2,500+ users in 50+ countries |
+| 🏆 100% Job Success on Upwork | ⭐ All 5-star reviews across verified contracts |
+
+**Need a Power Platform or SharePoint system fixed, rebuilt, or automated?** Email **info@bcobra.systems** with the process, spreadsheet, or workflow you want replaced. I'll reply with the fastest path to a working system.
+
+## Best Fit
+
+B. Cobra Systems is a strong fit when your team is dealing with:
+
+- Excel or email processes that break under real volume
+- SharePoint lists, document libraries, or approvals that need structure
+- Power Apps or Power Automate flows that need repair, modernization, or production hardening
+- Manual routing, notifications, reporting, or compliance tracking
+- Microsoft 365 environments where avoiding unnecessary premium licensing matters
 
 ## What We Build
 
-We work across three core platforms, choosing the right tool for each client's environment:
+Core focus: **Power Platform, SharePoint, and Microsoft 365 automation**.
+
+Adjacent capability: **n8n and AI pipelines** when the workflow needs external integrations, classification, or intelligent content automation.
 
 - **Microsoft Power Platform** — Power Apps, Power Automate, Power BI, Dataverse
+- **SharePoint & Microsoft 365** — Lists, document libraries, permissions, metadata, approval workflows
 - **n8n** — Open-source workflow automation for complex integrations
 - **AI Pipelines** — LLM-powered chatbots, classification, and intelligent workflows
 
 ---
 
+## Flagship Results
+
+### ⏱️ Timesheet Reconciliation Engine
+
+A staffing company with ~400 associates replaced weekly manual reconciliation between UKG Ready and client spreadsheets.
+
+- Reconciliation time dropped from **4-6 hours to under 15 minutes** per pay period
+- Multi-tier matching resolves **95%+ of entries automatically** on first run
+- Timekeepers can manage discrepancies, aliases, and notifications from one app
+
+### 🔑 BambooHR-to-Entra ID Employee Provisioning
+
+A 230+ employee roofing company automated Microsoft Entra ID onboarding, group assignment, QR code provisioning, and termination handling.
+
+- New hire provisioning dropped from **30+ minutes to under 2 minutes**
+- **14 Entra security groups** managed automatically from BambooHR attributes
+- Full lifecycle coverage reduced stale access and group drift
+
+### 📦 Warehouse Material Receiving Workflow
+
+A commercial electrical contractor replaced paper receiving logs and phone follow-ups with a mobile Power App and automated notifications.
+
+- PMs and foremen receive same-minute delivery notifications
+- Photo evidence is captured at the moment of receipt
+- Built on existing **M365 Business Premium** licensing with **zero per-user Premium connector cost**
+
+---
+
 ## Featured Projects
 
-*Client projects are shown with permission or anonymized. All Upwork projects include verified 5-star reviews.*
+*Client projects are shown with permission or anonymized. Screenshots, sample data, and operational details are adjusted where needed to protect client confidentiality while preserving the business problem, solution pattern, and measurable outcome. Upwork projects include verified 5-star reviews where noted.*
 
 ---
 
@@ -515,6 +556,13 @@ Comprehensive system analysis and migration architecture design to move the frei
 
 ---
 
+## Common Starting Points
+
+- **Power Platform rescue** — review, stabilize, and modernize an existing app or flow
+- **Spreadsheet-to-SharePoint migration** — replace a critical workbook with a multi-user system
+- **Workflow automation build** — approvals, routing, notifications, reporting, and audit trails
+- **Discovery sprint** — map the process and produce a build plan before implementation
+
 ## Our Process
 
 Every engagement follows a proven structure:
@@ -544,10 +592,11 @@ Every engagement follows a proven structure:
 Have a manual process that's eating your team's time? Let's fix it.
 
 - 📧 **Email:** info@bcobra.systems
-- 🌐 **Website:** [bcobra.systems](https://bcobra.systems)
-- 💼 **Upwork:** [View Profile & Reviews](https://www.upwork.com/freelancers/~01bb3ee0bbb0369070)
-- 📝 **Blog:** [blog.bcobra.net](https://blog.bcobra.net) — See our automation content pipeline in action
+- 🌐 **Business site:** [bcobra.systems](https://bcobra.systems)
+- 💼 **Portfolio:** [bcobra.net](https://bcobra.net)
+- 📝 **Blog / automation demo:** [blog.bcobra.net](https://blog.bcobra.net) — See the content automation pipeline in action
+- 🏆 **Upwork proof:** [View Profile & Reviews](https://www.upwork.com/freelancers/~01bb3ee0bbb0369070)
 
 ---
 
-*© 2025 B. Cobra Systems, LLC. Client projects shown with permission or anonymized. All examples use sample data where required for confidentiality.*
+*© 2025 B. Cobra Systems, LLC. Some client names are shown with permission; others are anonymized. Screenshots, sample data, and operational details are adjusted where needed to protect client confidentiality while preserving the business problem, solution pattern, and measurable outcome.*
