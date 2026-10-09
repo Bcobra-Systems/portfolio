@@ -621,7 +621,7 @@ Have a manual process that's eating your team's time? Let's fix it.
 - 🌐 **Business site:** [bcobra.systems](https://bcobra.systems)
 - 💼 **Portfolio:** [bcobra.net](https://bcobra.net)
 - 📝 **Blog / automation demo:** [blog.bcobra.net](https://blog.bcobra.net) — See the content automation pipeline in action
-- 🏆 **Upwork proof:** [View Profile & Reviews](https://www.upwork.com/freelancers/~01bb3ee0bbb0369070)
+- 🏆 **Upwork proof:** [View Profile & Reviews](https://www.upwork.com/freelancers/~013222e590705ad4a8)
 
 ---
 
