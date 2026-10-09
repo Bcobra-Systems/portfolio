@@ -397,6 +397,30 @@ A mobile Power App optimized for iPad that allows fleet drivers to submit vehicl
 
 ---
 
+## 🌐 Custom Web Applications
+
+### 🔋 Hybrid Power ROI Calculator
+
+**Client:** Alliance North America (ANA) | **Platform:** Next.js + Tailwind + Postgres (Neon) + Vercel + Entra ID SSO
+
+**The Problem:**
+An industrial equipment distributor and the exclusive North American AIRMAN supplier needed to show customers and resellers what they save by running an EBOSS hybrid power unit instead of a standard diesel generator. The math lived in a fragile shared Excel workbook that only the sales team could use, and the pricing model behind it could not be handed out. The project started as a Power Apps build. Once the requirement became a public tool that anyone could open from the marketing site with no sign-in, we recommended moving it off Power Platform and rebuilding it as a web app.
+
+**What We Built:**
+A public calculator on a branded subdomain, opened from the client's marketing site. All calculations run on the server, so the pricing constants never reach the browser. Results are rounded to display precision before they leave the server, which limits how far anyone can reverse-engineer the model. The engine is checked against the original spreadsheet to the cent on a contractual reference scenario. An admin panel behind Microsoft Entra ID single sign-on lets staff in an Entra security group maintain the equipment model library. It includes typo guards on large changes, protection for the reference models, and an append-only audit trail of every edit. Privacy-limited analytics (GA4 + Microsoft Clarity) measure usage without capturing anything a visitor types. The finished system was handed over on the client's own Vercel and Neon accounts.
+
+**The Impact:**
+- Replaced a shared spreadsheet with a self-service tool customers and resellers can use any time
+- Results match the client's spreadsheet to the cent on the contractual reference scenario
+- Pricing logic stays on the server, verified by an automated scan of the browser code on every build
+- Admin access follows Entra group membership, so removing someone from the group removes their access
+- Every model change is audited and can be traced or reversed
+- 100+ automated tests; delivered on client-owned infrastructure with full handover documentation
+
+**Tech Stack:** `Next.js` `React 19` `TypeScript` `Tailwind CSS` `PostgreSQL (Neon)` `Drizzle ORM` `Auth.js` `Microsoft Entra ID` `Zod` `Vitest` `Vercel` `GA4` `Microsoft Clarity`
+
+---
+
 ## 🚀 SaaS Products
 
 ### 🛡️ DOT Fleet Compliance Platform
