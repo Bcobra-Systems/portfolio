@@ -62,6 +62,14 @@ A commercial electrical contractor replaced paper receiving logs and phone follo
 - Photo evidence is captured at the moment of receipt
 - Built on existing **M365 Business Premium** licensing with **zero per-user Premium connector cost**
 
+### 🔋 Hybrid Power ROI Calculator
+
+An industrial equipment distributor replaced a fragile shared Excel workbook with a public calculator that customers and resellers can use any time.
+
+- Results match the client's spreadsheet **to the cent** on the contractual reference scenario
+- **Zero pricing constants** reach the browser: all calculations run on the server, verified on every build
+- Admin access follows **Microsoft Entra ID** group membership, with every model change audited
+
 ---
 
 ## Featured Projects
