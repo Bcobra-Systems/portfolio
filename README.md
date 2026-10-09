@@ -1,15 +1,15 @@
-# 💼 B. Cobra Systems — Power Platform & SharePoint Automation
+# 💼 B. Cobra Systems — Power Platform, SharePoint & Custom Web Apps
 
-**Power Platform and SharePoint automation for teams buried in spreadsheets, approvals, and manual reporting.**
+**Power Platform, SharePoint, and custom web apps for teams buried in spreadsheets, approvals, and manual reporting.**
 
-B. Cobra Systems is Bryan's solo Microsoft automation consultancy. I design and build Power Platform, SharePoint, and workflow systems for teams that have outgrown fragile Excel files, email approvals, and manual reporting. The work is senior-led from discovery through delivery, with documentation and training so your team owns the system after launch.
+B. Cobra Systems is Bryan's solo Microsoft automation consultancy. I design and build Power Platform, SharePoint, custom web, and workflow systems for teams that have outgrown fragile Excel files, email approvals, and manual reporting. The work is senior-led from discovery through delivery, with documentation and training so your team owns the system after launch.
 
 | 🎓 Microsoft Certified Power Platform Consultant | 💻 26 years enterprise software development |
 |---|---|
 | 🏛️ 21 years supporting CDC globally | 🌍 Built systems used by 2,500+ users in 50+ countries |
 | 🏆 100% Job Success on Upwork | ⭐ All 5-star reviews across verified contracts |
 
-**Need a Power Platform or SharePoint system fixed, rebuilt, or automated?** Email **info@bcobra.systems** with the process, spreadsheet, or workflow you want replaced. I'll reply with the fastest path to a working system.
+**Need a Power Platform, SharePoint, or web system fixed, rebuilt, or automated?** Email **info@bcobra.systems** with the process, spreadsheet, or workflow you want replaced. I'll reply with the fastest path to a working system.
 
 ## Best Fit
 
@@ -20,15 +20,17 @@ B. Cobra Systems is a strong fit when your team is dealing with:
 - Power Apps or Power Automate flows that need repair, modernization, or production hardening
 - Manual routing, notifications, reporting, or compliance tracking
 - Microsoft 365 environments where avoiding unnecessary premium licensing matters
+- Tools that need to reach customers, resellers, or the public, not just licensed Microsoft 365 users
 
 ## What We Build
 
-Core focus: **Power Platform, SharePoint, and Microsoft 365 automation**.
+Core focus: **Power Platform, SharePoint, and Microsoft 365 automation**, plus **custom web applications** when a tool needs to go beyond Microsoft 365.
 
 Adjacent capability: **n8n and AI pipelines** when the workflow needs external integrations, classification, or intelligent content automation.
 
 - **Microsoft Power Platform** — Power Apps, Power Automate, Power BI, Dataverse
 - **SharePoint & Microsoft 365** — Lists, document libraries, permissions, metadata, approval workflows
+- **Custom Web Applications** — Next.js, React, TypeScript, and Postgres, with Microsoft Entra ID sign-in where needed
 - **n8n** — Open-source workflow automation for complex integrations
 - **AI Pipelines** — LLM-powered chatbots, classification, and intelligent workflows
 
